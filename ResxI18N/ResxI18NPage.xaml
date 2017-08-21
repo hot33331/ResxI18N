@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:i18n="clr-namespace:ResxI18N.Helpers;assembly=ResxI18N"
+    xmlns:local="clr-namespace:ResxI18N" x:Class="ResxI18N.ResxI18NPage">
+	<Label Text="{i18n:Translate Welcome}" VerticalOptions="Center" HorizontalOptions="Center" />
+</ContentPage>
